@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/blankFragment1">
+
+    <fragment
+        android:id="@+id/blankFragment1"
+        android:name="com.example.appnavigation.BlankFragment1"
+        android:label="BlankFragment1" >
+        <action
+            android:id="@+id/action_blankFragment1_to_blankFragment2"
+            app:destination="@id/blankFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.appnavigation.BlankFragment2"
+        android:label="fragment_blank2"
+        tools:layout="@layout/fragment_blank2" >
+        <action
+            android:id="@+id/action_blankFragment2_to_blankFragment3"
+            app:destination="@id/blankFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment3"
+        android:name="com.example.appnavigation.BlankFragment3"
+        android:label="fragment_blank3"
+        tools:layout="@layout/fragment_blank3" >
+        <action
+            android:id="@+id/action_blankFragment3_to_blankFragment4"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment4"
+        android:name="com.example.appnavigation.BlankFragment4"
+        android:label="fragment_blank4"
+        tools:layout="@layout/fragment_blank4" >
+        <action
+            android:id="@+id/action_blankFragment4_to_blankFragment5"
+            app:destination="@id/blankFragment5" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment5"
+        android:name="com.example.appnavigation.BlankFragment5"
+        android:label="fragment_blank5"
+        tools:layout="@layout/fragment_blank5" >
+        <action
+            android:id="@+id/action_blankFragment5_to_blankFragment6"
+            app:destination="@id/blankFragment6" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment6"
+        android:name="com.example.appnavigation.BlankFragment6"
+        android:label="fragment_blank6"
+        tools:layout="@layout/fragment_blank6" >
+        <action
+            android:id="@+id/action_blankFragment6_to_blankFragment7"
+            app:destination="@id/blankFragment7" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment7"
+        android:name="com.example.appnavigation.BlankFragment7"
+        android:label="fragment_blank7"
+        tools:layout="@layout/fragment_blank7" >
+        <action
+            android:id="@+id/action_blankFragment7_to_blankFragment8"
+            app:destination="@id/blankFragment8" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment8"
+        android:name="com.example.appnavigation.BlankFragment8"
+        android:label="fragment_blank8"
+        tools:layout="@layout/fragment_blank8" >
+        <action
+            android:id="@+id/action_blankFragment8_to_blankFragment1"
+            app:destination="@id/blankFragment1" />
+    </fragment>
+</navigation>
